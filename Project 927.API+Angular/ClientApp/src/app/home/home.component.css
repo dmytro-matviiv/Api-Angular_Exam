@@ -1,0 +1,555 @@
+body
+{
+    height: 100%;
+ margin: 0px;
+ font-family: 'Roboto', sans-serif;
+}
+.cover
+{
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(https://inventure.com.ua/img/thumb.990.660/upload/pic2021-1q/756141831169786.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section1
+{
+    background-color: white;
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.section1 h2
+{
+    font-size: 30px;
+}
+.section1 h1
+{
+    width: 80px;
+    height: 3px;
+    background-color: black;
+}
+.section1 hr
+{
+  width: 30px;
+    background-color: black;
+}
+.section2 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5a1431a1e5dd5b754be2e0e9/1595933419668-LOI23HGYLNIJXDS729OC/ke17ZwdGBToddI8pDm48kEhRb-mGDiEi0xC18_AR20gUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcIhmhaf0_y3jP90sctjPbyJl_LgGHVX5eJAayYAVUQeLJuPsDj2XpL8L_ZrvpLsfK/s3-news-tmp-90538-untitled_design_-_2019-12-09t130918.786--default--1200.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.section2 button
+{
+    
+    background-color: white;
+    color:black;
+    padding:13px;
+    border: none;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.section2 hr
+{
+    width: 30px;
+    height: 2px;
+    background-color: white;
+}
+
+.section3
+{
+    padding: 100px;
+    background-color: white;
+}
+.MyCard img
+{
+    margin-bottom: 10px;
+}
+
+body
+{
+  margin:0px;
+  padding:0px;
+	font-family: "Open Sans", arial;
+    background-image: url(https://i.pinimg.com/236x/0e/af/ef/0eafeff17845279d9bcd74d118e81556.jpg);
+	color:rgb(68, 36, 36);
+	font-weight:300;
+
+}
+
+.fa-lg {
+font-size: 1em;
+  
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 55px;
+height: 36px;
+text-align: center;
+top:12px; 
+font-size:20px;
+
+}
+
+
+
+.main-menu:hover, nav.main-menu.expanded {
+width:250px;
+overflow:hidden;
+opacity:1;
+
+}
+
+.main-menu {
+background:#F7F7F7;
+position:absolute;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:55px;
+overflow:hidden;
+transition:width .2s linear;
+box-shadow: 1px 0 15px rgba(0, 0, 0, 0.07);
+  opacity:1;
+}
+
+
+.main-menu li>a {
+position:relative;
+width:255px;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#8a8a8a;
+font-size: 13px;
+text-decoration:none;
+transition:all .14s linear;
+font-family: 'Strait', sans-serif;
+border-top:1px solid #f2f2f2;
+
+text-shadow: 1px 1px 1px  #fff;  
+}
+
+
+
+.main-menu .nav-icon {
+  
+position:relative;
+display:table-cell;
+width:55px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+
+}
+
+.main-menu .nav-text  {
+   
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:1900px;
+font-family: 'Titillium Web', sans-serif;
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+text-transform: uppercase;
+}
+
+
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:#00bbbb;
+text-shadow: 0px 0px 0px; 
+}
+
+.cont{
+    width: 74%;
+    margin-left:auto;
+    margin-right:auto;
+    height: 1000vh;
+    background-color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.card-img-top
+{
+    padding-left: 100px;
+    padding-right:100px;
+    padding-top:10px;
+
+
+}
+.btn-buy
+{
+  margin-left: 120px;
+  margin-right: 120px;
+
+}
+.section5 {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.section5 hr {
+    width: 200px;
+    height: 3px;
+    background-color: white;
+    border: none;
+}
+
+.div1 {
+    padding-bottom: 250px;
+}
+
+.cover4 {
+    width: 100%;
+    /* background-image: url(images/pexels-aleksandar-pasaric-2707233.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.cover3 {
+    width: 100%;
+    background-image: url(https://www.klarna.com/assets/sites/3/2020/09/16085253/Shoe.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.btn
+{
+    background-color: pink !important;
+}
+.btn-danger
+{
+    background-color: pink !important; 
+}
+h3::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  h3:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  h3::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(200 100% 80%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  h3 {
+    position: relative;
+    font-size: 5rem;
+  }
+  
+  html {
+    block-size: 100%;
+    inline-size: 100%;
+  }
+  
+
+  
+  @media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+  .button-7 {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 15px;
+    color: #383d48;
+}
+.button-7 span {
+    display: block;
+    overflow: hidden;
+    max-width: 0;
+    opacity: 0;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    line-height: 1;
+    transition: .4s ease;
+}
+.button-7:after {
+    content:url("https://img.icons8.com/metro/104/000000/k-lowercase.png");
+    font-family: Linearicons-Free;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 22px;
+}
+.button-7:hover span {
+    max-width: 150px;
+    opacity: 1;
+    margin-right: 6px;
+}
+
+
+
+
+.button-8 {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 15px;
+  color: #383d48;
+}
+.button-8 span {
+  display: block;
+  overflow: hidden;
+  max-width: 0;
+  opacity: 0;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  line-height: 1;
+  transition: .4s ease;
+}
+.button-8:after {
+  content:url("https://img.icons8.com/metro/104/000000/l.png");
+  font-family: Linearicons-Free;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 22px;
+}
+.button-8:hover span {
+  max-width: 150px;
+  opacity: 1;
+  margin-right: 6px;
+}
+
+
+
+
+
+
+
+.button-9 {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 15px;
+  color: #383d48;
+}
+.button-9 span {
+  display: block;
+  overflow: hidden;
+  max-width: 0;
+  opacity: 0;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  line-height: 1;
+  transition: .4s ease;
+}
+.button-9:after {
+  content: url("https://img.icons8.com/ios-filled/104/000000/a.png");
+  font-family: Linearicons-Free;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 22px;
+}
+.button-9:hover span {
+  max-width: 150px;
+  opacity: 1;
+  margin-right: 6px;
+}
+
+
+
+
+
+
+
+.button-10 {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 15px;
+  color: #383d48;
+}
+.button-10 span {
+  display: block;
+  overflow: hidden;
+  max-width: 0;
+  opacity: 0;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  line-height: 1;
+  transition: .4s ease;
+}
+.button-10:after {
+  content: url("https://img.icons8.com/metro/104/000000/r.png");
+  font-family: Linearicons-Free;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 22px;
+}
+.button-10:hover span {
+  max-width: 150px;
+  opacity: 1;
+  margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+.button-11 {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 15px;
+  color: #383d48;
+}
+.button-11 span {
+  display: block;
+  overflow: hidden;
+  max-width: 0;
+  opacity: 0;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  line-height: 1;
+  transition: .4s ease;
+}
+.button-11:after {
+  content: url("https://img.icons8.com/ios-filled/104/000000/n.png");
+  font-family: Linearicons-Free;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 22px;
+}
+.button-11:hover span {
+  max-width: 150px;
+  opacity: 1;
+  margin-right: 6px;
+}
+
+
+
+
+.button-12 {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 15px;
+  color: #383d48;
+}
+.button-12 span {
+  display: block;
+  overflow: hidden;
+  max-width: 0;
+  opacity: 0;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  line-height: 1;
+  transition: .4s ease;
+}
+.button-12:after {
+  content: url("https://img.icons8.com/ios-filled/104/000000/a.png");
+  font-family: Linearicons-Free;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 22px;
+}
+.button-12:hover span {
+  max-width: 150px;
+  opacity: 1;
+  margin-right: 6px;
+}

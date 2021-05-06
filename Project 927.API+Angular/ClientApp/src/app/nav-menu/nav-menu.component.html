@@ -1,0 +1,42 @@
+<header>
+  <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark box-shadow mb-3">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+        aria-label="Toggle navigation" [attr.aria-expanded]="isExpanded" (click)="toggle()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" [ngClass]="{ show: isExpanded }">
+        <ul class="navbar-nav flex-grow">
+          
+          <li class="nav-item" [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
+            <a style="color: white;" class="nav-link text-white" [routerLink]="['/']">Home</a>
+          </li>
+
+          <li *ngIf="isAdmin === true && isLoggedIn == true" class="nav-item" [routerLinkActive]="['link-active']">
+            <a style="color: white;" class="nav-link text-white" [routerLink]="['/admin-panel']">Admin panel</a>
+          </li>
+
+          <li *ngIf="isLoggedIn === true && isAdmin == false" class="nav-item" [routerLinkActive]="['link-active']">
+            <a style="color: white;" class="nav-link text-white" [routerLink]="['/user-profile']">Profile</a>
+          </li>
+
+          <li *ngIf="isLoggedIn === false" class="nav-item" [routerLinkActive]="['link-active']">
+            <a style="color: white;" class="nav-link text-white" [routerLink]="['/register']">Register</a>
+          </li>
+
+          <li *ngIf="isLoggedIn === false" class="nav-item" [routerLinkActive]="['link-active']">
+            <a style="color: white;" class="nav-link text-white" [routerLink]="['/login']">Login</a>
+          </li>
+          
+          <li *ngIf="isLoggedIn === true" class="nav-item">
+            <a  class="nav-link text-white" (click)="Logout()">Logout</a>
+          </li>
+
+          <li *ngIf="isLoggedIn === true" class="nav-item" [routerLinkActive]="['link-active']">
+            <a style="color: white;" class="nav-link text-white" [routerLink]="['/market']">Market</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
